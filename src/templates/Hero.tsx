@@ -1,5 +1,4 @@
-import Link from 'next/link';
-
+import CountdownTimer from '@/countdown/CountdownTimer';
 import { HeroBanner } from '@/hero/HeroBanner';
 
 import { Background } from '../background/Background';
@@ -11,13 +10,9 @@ const Hero = () => (
   <Background color="bg-gray-100">
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
+        <li>Expria em:</li>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            GitHub
-          </Link>
-        </li>
-        <li>
-          <Link href="/">Sign in</Link>
+          <CountdownTimer />
         </li>
       </NavbarTwoColumns>
     </Section>
