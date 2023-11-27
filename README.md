@@ -44,6 +44,10 @@ Built-in feature from Next.js:
 - CTA banner
 - Footer
 
+### SendGrid
+
+Copy `.env.example` to `.env.local` and put your API key in there for the form submission to work. You can get a free signup key here [SendGrid signup](https://signup.sendgrid.com/)
+
 ### Philosophy
 
 - Minimal code
