@@ -105,7 +105,7 @@ export const ComparisonCard = (props: IComparisonCardProps) => (
         </div>
         <button className="my-auto flex w-full justify-center gap-2 self-center rounded-md bg-amber-400 px-7 py-2.5 hover:bg-[#ffcc23]/[.80] max-md:px-5 md:w-auto">
           <Link
-            href="..."
+            href="#"
             className="text-base font-semibold leading-6 text-neutral-900"
           >
             Planejar Minha Viagem

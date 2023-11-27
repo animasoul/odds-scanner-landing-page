@@ -124,7 +124,7 @@ function RegistrationForm() {
                     Planejar Minha Viagem
                   </div>
                   <Link
-                    href="..."
+                    href="#"
                     className="my-auto aspect-square w-5 max-w-full shrink-0 items-center justify-center self-center overflow-hidden object-contain object-center"
                   >
                     <Image
