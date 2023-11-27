@@ -13,7 +13,7 @@ const NavbarTwoColumns = (props: INavbarProps) => (
     </div>
 
     <nav>
-      <ul className="navbar flex flex-col items-center text-xl font-medium text-gray-800 md:flex-row ">
+      <ul className="navbar flex flex-col items-end text-xl font-medium text-gray-800 md:flex-row md:items-center ">
         {props.children}
       </ul>
     </nav>

@@ -8,7 +8,6 @@ import CookieConsentComponent from '../cookieConsent/CookieConsentComponent';
 import { Meta } from '../layout/Meta';
 import scheduleRandomNotifications from '../notifications/RandomNotifications';
 import { AppConfig } from '../utils/AppConfig';
-import { Banner } from './Banner';
 import ComparisonCards from './ComparisonCards';
 import { Footer } from './Footer';
 import Form from './Form';
@@ -40,7 +39,6 @@ const Base: React.FC = () => {
       <Hero />
       <ComparisonCards />
       <Form />
-      <Banner />
       <Footer />
       <CookieConsentComponent
         onAccept={handleCookieConsentAccept}
