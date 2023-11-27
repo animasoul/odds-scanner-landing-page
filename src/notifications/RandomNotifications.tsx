@@ -53,7 +53,7 @@ const ScheduleRandomNotifications = (): void => {
   const showToast = (content: JSX.Element, iconSrc: string): void => {
     toast.info(content, {
       position: 'bottom-left',
-      autoClose: 8000,
+      autoClose: 7000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
