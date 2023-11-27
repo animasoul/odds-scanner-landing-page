@@ -93,6 +93,8 @@ Open http://localhost:3000 with your favorite browser to see your project. For y
 │   ├── navigation       # Atomic navigation component
 |   ├── notification     # Atomic notification management component
 │   ├── pages            # Next JS pages
+│       ├── api            
+│           ├── sendMail # API endpoint for SendGrid email dispacter
 │   ├── styles           # PostCSS style folder with Tailwind
 │   ├── templates        # Default template
 │   └── utils            # Utility folder

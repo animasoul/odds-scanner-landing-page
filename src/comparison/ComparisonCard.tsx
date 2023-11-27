@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 type IComparisonCardProps = {
   offerNumber?: number;
@@ -103,12 +104,12 @@ export const ComparisonCard = (props: IComparisonCardProps) => (
           </div>
         </div>
         <button className="my-auto flex w-full justify-center gap-2 self-center rounded-md bg-amber-400 px-7 py-2.5 hover:bg-[#ffcc23]/[.80] max-md:px-5 md:w-auto">
-          <a
+          <Link
             href="..."
             className="text-base font-semibold leading-6 text-neutral-900"
           >
             Planejar Minha Viagem
-          </a>
+          </Link>
           <Image
             loading="lazy"
             src="/assets/images/514bcd48-64dd-4201-b296-62f7098a08ed.svg"

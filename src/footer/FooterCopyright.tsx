@@ -1,10 +1,12 @@
+import Link from 'next/link';
+
 import { AppConfig } from '../utils/AppConfig';
 
 const FooterCopyright = () => (
   <div className="footer-copyright">
     © Copyright {new Date().getFullYear()} {AppConfig.title}. Todos os direitos
     reservados. Made with{' '}
-    <a href="https://www.ajpartnersltd.com/">Abel Rogers</a>.
+    <Link href="https://www.ajpartnersltd.com/">Abel Rogers</Link>.
     <style jsx>
       {`
         .footer-copyright :global(a) {

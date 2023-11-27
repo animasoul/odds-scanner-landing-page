@@ -123,7 +123,7 @@ function RegistrationForm() {
                   <div className="text-base font-semibold leading-6 text-neutral-900">
                     Planejar Minha Viagem
                   </div>
-                  <a
+                  <Link
                     href="..."
                     className="my-auto aspect-square w-5 max-w-full shrink-0 items-center justify-center self-center overflow-hidden object-contain object-center"
                   >
@@ -133,7 +133,7 @@ function RegistrationForm() {
                       width={100}
                       height={100}
                     />
-                  </a>
+                  </Link>
                 </div>
               </button>
             </form>
