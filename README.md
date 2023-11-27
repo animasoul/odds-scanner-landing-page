@@ -1,18 +1,11 @@
-# Landing Page Template built with Next JS 13+, Tailwind CSS 3 and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+# Landing Page Template built with Next JS 13+, Tailwind CSS 3 and TypeScript
 
-<p align="center">
-  <a href="https://creativedesignsguru.com/demo/nextjs-landing-page/"><img src="public/assets/images/nextjs-landing-page-banner.png?raw=true" alt="Next js starter banner"></a>
-</p>
 
 🚀 Landing Page theme written in Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
 
-Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/nextjs-landing-page/).
-
 ### DEMO
 
-[![Nextjs Landing Page Template Screenshot](public/assets/images/nextjs-landing-page-screenshot.png?raw=true)](https://creativedesignsguru.com/demo/nextjs-landing-page/)
-
-Check out our [live demo](https://creativedesignsguru.com/demo/nextjs-landing-page/).
+Check out the [live demo](https://creativedesignsguru.com/demo/nextjs-landing-page/).
 
 ### Features
 
@@ -31,7 +24,6 @@ Developer experience first:
 - 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
 - ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
 - 🖱️ One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
-- 🌈 Include a FREE theme
 - 💯 Maximize lighthouse score
 
 Built-in feature from Next.js:
@@ -44,21 +36,19 @@ Built-in feature from Next.js:
 
 - Navbar
 - Hero
+- Comparison Card
+- Form Submit (uses SendGrid API)
+- Cookie management
+- Notifications
 - Features
 - CTA banner
 - Footer
-
-Find more components in our [premium NextJS themes](https://creativedesignsguru.com/category/nextjs/).
 
 ### Philosophy
 
 - Minimal code
 - SEO-friendly
 - 🚀 Production-ready
-
-## Sponsors
-
-[![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png)](https://nextlessjs.com)
 
 ### Requirements
 
@@ -69,7 +59,7 @@ Find more components in our [premium NextJS themes](https://creativedesignsguru.
 Run the following command on your local environment:
 
 ```
-git clone --depth=1 https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template.git my-project-name
+git clone --depth=1 https://github.com/animasoul/odds-scanner-landing-page my-project-name
 cd my-project-name
 npm install
 ```
@@ -92,12 +82,16 @@ Open http://localhost:3000 with your favorite browser to see your project. For y
 ├── src
 │   ├── background       # Atomic background component
 │   ├── button           # Atomic button component
+|   ├── comparison       # Atomic comparison card component
+|   ├── cookieConsent    # Atomic cookie consent component including notification consent
+|   ├── countdown        # Atomic countdown component
 │   ├── cta              # Atomic cta component
 │   ├── feature          # Atomic feature component
 │   ├── footer           # Atomic footer component
 │   ├── hero             # Atomic hero component
 │   ├── layout           # Atomic layout component
 │   ├── navigation       # Atomic navigation component
+|   ├── notification     # Atomic notification management component
 │   ├── pages            # Next JS pages
 │   ├── styles           # PostCSS style folder with Tailwind
 │   ├── templates        # Default template
@@ -144,18 +138,6 @@ npm run build-prod
 
 Now, your theme is ready to be deployed. All generated files are located at `out` folder, which you can deploy with any hosting service.
 
-### Deploy to Netlify
-
-Clone this repository on own GitHub account and deploy to Netlify:
-
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template)
-
-### Deploy to Vercel
-
-Deploy this Next JS Boilerplate on Vercel in one click:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fixartz%2FNext-JS-Landing-Page-Starter-Template)
-
 ### VSCode information (optional)
 
 If you are VSCode users, you can have a better integration with VSCode by installing the suggested extension in `.vscode/extension.json`. The starter code comes up with Settings for a seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
@@ -173,7 +155,3 @@ Licensed under the MIT License, Copyright © 2023
 See [LICENSE](LICENSE) for more information.
 
 ---
-
-Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
-
-[![Sponsor Next JS Boilerplate](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://www.buymeacoffee.com/ixartz)

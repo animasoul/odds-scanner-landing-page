@@ -9,7 +9,7 @@ type IHeroBannerProps = {
 };
 
 const HeroBanner = (props: IHeroBannerProps) => (
-  <section className=" bg-[url('/assets/images/bg-hero-mobile.jpg')] bg-cover bg-center bg-no-repeat md:bg-[url('/assets/images/bg-hero-desktop.jpg')]  md:bg-contain">
+  <section className=" bg-[url('/assets/images/bg-hero-mobile.jpg')] bg-cover bg-center bg-no-repeat md:bg-[url('/assets/images/bg-hero-desktop.jpg')] ">
     <header className="mx-auto max-w-screen-lg">
       <div className=" flex flex-col items-center justify-end gap-2 px-3 pb-0 pt-8 md:items-end  md:pt-12">
         <div className=" flex flex-col items-start gap-9 self-stretch">

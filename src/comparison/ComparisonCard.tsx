@@ -11,7 +11,7 @@ type IComparisonCardProps = {
 };
 
 export const ComparisonCard = (props: IComparisonCardProps) => (
-  <article className="relative flex flex-col items-start self-stretch rounded-t-3xl border border-solid border-[color:var(--neutral-200,#E6E9ED)]">
+  <article className="relative flex flex-col items-start self-stretch rounded-t-3xl border border-solid border-[color:var(--neutral-200,#E6E9ED)] hover:border-[#5ac6dd]">
     <section className="bg-white flex w-full flex-col rounded-lg p-3 pb-5">
       <div
         aria-label="Number of offers"
@@ -102,7 +102,7 @@ export const ComparisonCard = (props: IComparisonCardProps) => (
             </div>
           </div>
         </div>
-        <div className="my-auto flex w-full justify-center gap-2 self-center rounded-md bg-amber-400 px-7 py-2.5 max-md:px-5 md:w-auto">
+        <button className="my-auto flex w-full justify-center gap-2 self-center rounded-md bg-amber-400 px-7 py-2.5 hover:bg-[#ffcc23]/[.80] max-md:px-5 md:w-auto">
           <a
             href="..."
             className="text-base font-semibold leading-6 text-neutral-900"
@@ -117,7 +117,7 @@ export const ComparisonCard = (props: IComparisonCardProps) => (
             width={20}
             height={20}
           />
-        </div>
+        </button>
       </div>
     </section>
     <section className="w-full  rounded-none bg-gray-200 px-4 py-3.5 text-xs leading-4 text-neutral-900 ">

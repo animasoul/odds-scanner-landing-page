@@ -1,6 +1,7 @@
 {
-  "name": "next-js-boilerplate",
+  "name": "odds-scanner-landing-page",
   "version": "1.0.0",
+  "description": "A landing page concept for Odds Scanner",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
