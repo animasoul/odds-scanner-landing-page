@@ -30,6 +30,22 @@ const ScheduleRandomNotifications = (): void => {
       ),
       icon: '/assets/images/people-icon.png',
     },
+    {
+      content: (
+        <span>
+          <strong>10 pessoas</strong> acessaram esta página na última hora
+        </span>
+      ),
+      icon: '/assets/images/flame-icon.png',
+    },
+    {
+      content: (
+        <span>
+          <strong>60 pessoas</strong> escolheram a Voyajer em Rio de Janeiro
+        </span>
+      ),
+      icon: '/assets/images/people-icon.png',
+    },
   ];
 
   let nextMessageIndex = 0;

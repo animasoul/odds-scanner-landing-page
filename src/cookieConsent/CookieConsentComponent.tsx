@@ -46,7 +46,7 @@ const CookieConsentComponent: React.FC<CookieConsentComponentProps> = ({
       </CookieConsent>
       {showNotificationConsent && (
         <CookieConsent
-          location="bottom"
+          location="top"
           buttonText="Ativar notificações"
           enableDeclineButton
           declineButtonText="Agora não"

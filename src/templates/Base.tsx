@@ -53,7 +53,7 @@ const Base: React.FC = () => {
         newestOnTop
         closeOnClick
         rtl={false}
-        pauseOnFocusLoss
+        pauseOnFocusLoss={false}
         draggable
         pauseOnHover
         theme="light"

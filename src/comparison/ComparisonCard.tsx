@@ -103,14 +103,12 @@ export const ComparisonCard = (props: IComparisonCardProps) => (
           </div>
         </div>
         <div className="my-auto flex w-full justify-center gap-2 self-center rounded-md bg-amber-400 px-7 py-2.5 max-md:px-5 md:w-auto">
-          <div className="text-base font-semibold leading-6 text-neutral-900">
-            <a
-              href="..."
-              className="text-base font-semibold leading-6 text-neutral-900"
-            >
-              Planejar Minha Viagem
-            </a>
-          </div>
+          <a
+            href="..."
+            className="text-base font-semibold leading-6 text-neutral-900"
+          >
+            Planejar Minha Viagem
+          </a>
           <Image
             loading="lazy"
             src="/assets/images/514bcd48-64dd-4201-b296-62f7098a08ed.svg"
