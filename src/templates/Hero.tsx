@@ -10,7 +10,7 @@ const Hero = () => (
   <Background color="bg-gray-100">
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
-        <li>Expria em:</li>
+        <li className="text-sm md:text-lg">Expria em:</li>
         <li>
           <CountdownTimer />
         </li>

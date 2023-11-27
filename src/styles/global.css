@@ -4,3 +4,6 @@
 
 @tailwind utilities;
 
+.Toastify--animate-icon {
+  width: 35px !important;
+}

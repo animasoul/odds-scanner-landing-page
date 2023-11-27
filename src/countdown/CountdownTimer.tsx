@@ -40,7 +40,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({
       return <span>Time&apos;s up!</span>;
     }
     return (
-      <span className="text-1xl font-sans font-bold">
+      <span className="md:text-1xl font-sans text-lg font-bold">
         {hours}h {minutes}min {seconds}s
       </span>
     );

@@ -1,6 +1,8 @@
 import React from 'react';
 import CookieConsent from 'react-cookie-consent';
 
+import ScheduleRandomNotifications from '@/notifications/RandomNotifications';
+
 type CookieConsentComponentProps = {
   onAccept: () => void;
   showNotificationConsent: boolean;
@@ -12,6 +14,10 @@ const CookieConsentComponent: React.FC<CookieConsentComponentProps> = ({
 }) => {
   const handleDecline = () => {
     window.location.href = 'https://www.google.com';
+  };
+
+  const handleNotificationConsentAccept = () => {
+    ScheduleRandomNotifications();
   };
 
   return (
@@ -44,11 +50,11 @@ const CookieConsentComponent: React.FC<CookieConsentComponentProps> = ({
           buttonText="Ativar notificações"
           enableDeclineButton
           declineButtonText="Agora não"
-          onAccept={() => console.log('Notifications accepted')}
+          onAccept={handleNotificationConsentAccept}
           onDecline={() => console.log('Notifications declined')}
           style={{ background: '#ffffff' }}
           cookieName="notificationConsentCookie"
-          containerClasses="px-3 mx-auto p-4 text-left text-sm border-t-3 border-solid border-gray"
+          containerClasses="w-48 px-3 mx-auto p-4 text-left text-sm border-t-3 border-solid border-gray"
           buttonClasses="justify-center items-center gap-2 py-3 px-5 w-60 h-11 rounded-[0.3125rem] bg-[#ffcc23] Sans 3'] text-[#13161a] font-['Source font-semibold leading-[150%] border-t-1 border-gray"
           declineButtonClasses="Sans 3'] text-[#013a67] font-['Source font-semibold leading-[150%]"
           expires={150}
