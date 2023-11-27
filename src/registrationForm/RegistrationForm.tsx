@@ -117,7 +117,7 @@ function RegistrationForm() {
               </div>
               <button
                 type="submit"
-                className="mt-8 flex flex-col items-center justify-center rounded-md bg-amber-400 px-5 py-2.5"
+                className="mt-8 flex flex-col items-center justify-center rounded-md bg-amber-400 px-5 py-2.5 hover:bg-[#ffcc23]/[.80]"
               >
                 <div className="flex items-stretch gap-2">
                   <div className="text-base font-semibold leading-6 text-neutral-900">
@@ -128,6 +128,7 @@ function RegistrationForm() {
                     className="my-auto aspect-square w-5 max-w-full shrink-0 items-center justify-center self-center overflow-hidden object-contain object-center"
                   >
                     <Image
+                      loading="lazy"
                       src="/assets/images/514bcd48-64dd-4201-b296-62f7098a08ed.svg"
                       alt="Planejar Minha Viagem"
                       width={100}
@@ -141,6 +142,7 @@ function RegistrationForm() {
             <div className="flex shrink-0 flex-row items-center justify-center py-32 md:justify-start md:pt-44">
               <div className="flex flex-col items-start gap-6">
                 <Image
+                  loading="lazy"
                   src="/assets/images/stamp.svg"
                   alt="Success"
                   width={48}
@@ -155,6 +157,7 @@ function RegistrationForm() {
         </div>
         <div className="ml-5 hidden w-[56%] flex-col items-stretch max-md:ml-0 max-md:w-full md:flex">
           <Image
+            loading="lazy"
             src="/assets/images/Featured-Image-3.jpg"
             className="aspect-[1.11] w-full grow overflow-hidden object-contain object-center max-md:mt-10 max-md:max-w-full"
             alt="Image"

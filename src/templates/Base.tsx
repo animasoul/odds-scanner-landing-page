@@ -21,7 +21,7 @@ const Base: React.FC = () => {
   const handleCookieConsentAccept = () => {
     setTimeout(() => {
       setShowNotificationConsent(true);
-    }, 40000); // 40 second delay
+    }, 30000); // 30 second delay
   };
 
   useEffect(() => {
