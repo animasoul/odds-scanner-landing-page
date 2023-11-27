@@ -5,7 +5,7 @@
 
 ### DEMO
 
-Check out the [live demo](https://creativedesignsguru.com/demo/nextjs-landing-page/).
+Check out the [live demo](https://landing.ajpartnersltd.com/).
 
 ### Features
 
